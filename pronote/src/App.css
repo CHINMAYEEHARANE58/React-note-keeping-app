@@ -1,0 +1,40 @@
+.container{
+  width: 98.6vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  background-color: #3867d6;
+  color: aliceblue;
+}
+
+.input, .output{
+  width: 40vw;
+  height: 35vw;
+  margin-top: 7vw;
+  position: relative;
+}
+
+h3{
+  position: absolute;
+  top: -4vw;
+}
+
+.input-text{
+  width: 40vw;
+  height: 35vw;
+  background-color: #3867d6;
+  border: 3px solid #464646;
+  border-radius: 5px;
+  padding: 7px;
+  color: aliceblue;
+}
+
+.output-text{
+  width: 40vw;
+  height: 35vw;
+  background-color: #464646;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
+  padding: 7px;
+  display: flex;
+}
